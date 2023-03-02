@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(51, 55, 56);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(231, 202, 157);
+  margin: 0% 5%;
+  padding: 0% 5%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(231, 202, 157);
+  background-color: rgb(51, 55, 56);
+}
+.App-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color: rgb(67, 107, 114);
+  text-decoration: none;
+  color: rgb(231, 202, 157);
+  line-height: 0;
+  vertical-align: top;
+  font-size: 1.1em;
+  font-weight: bold;
+  border: 2px solid rgb(113, 73, 13);
+  border-radius: 3px;
+}
+
+.App-nav a:hover {
+  color: rgb(113, 73, 13);
+  background-color: rgb(247, 218, 174);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+td,
+th {
+  border: 1px solid rgb(67, 103, 110);
+  padding: 5px;
+  table-layout: auto;
+  width: 175px;
+}
+
+tr:nth-child(even) {
+  background-color: #2c2b2b;
+}
+
+tr:hover {
+  background-color: rgb(67, 107, 114);
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(67, 107, 114);
+  color: rgb(247, 218, 174);
+}
+
+input[type=number]{
+  background-color: rgb(72, 77, 78);
+  width: auto;
+  padding: 10px 10px;
+  margin: 8px 0;
+  color: rgb(231, 202, 157);
+  font-size: 25px;
+}
+
+input[type=text]{
+  background-color: rgb(72, 77, 78);
+  width: auto;
+  padding: 5px 5px;
+  margin: 8px 5px;
+  color:rgb(231, 202, 157);
+  font-size: 25px;
+}
+input:focus{
+  background-color:rgb(231, 202, 157);
+  width: auto;
+  padding: 5px 20px;
+  margin: 8px 5px;
+  color:rgb(33, 33, 33);
+  font-size: 25px;
+}
+
+select {
+  background-color: rgb(51, 55, 56);
+  padding: 5px, 2px;
+  margin: 8px, 0;
+  color: rgb(231, 202, 157);
+  font-size: 30px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 0px 15px 0px 15px;
+  background-color: rgb(67, 107, 114);
+  text-decoration: none;
+  color: rgb(231, 202, 157);
+  line-height: 2;
+  font-weight: bold;
+  border: 2px solid rgb(113, 73, 13);
+  border-radius: 5px;
+  font-size: 37px;
+}
+
+button:hover {
+  color: rgb(113, 73, 13);
+  background-color: rgb(247, 218, 174);
+}
